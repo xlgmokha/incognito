@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'incognito'
+require 'incognito/cli'
 
-sms = Incognito::Sms.new
-puts ARGV.inspect
-sms.send(to: ARGV[0], message: ARGV[1])
+Incognito::CLI::Application.start(ARGV)
