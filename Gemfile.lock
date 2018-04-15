@@ -2,11 +2,13 @@ PATH
   remote: .
   specs:
     incognito (0.1.0)
+      dotenv (~> 2.2)
       twilio-ruby (~> 5.8)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    dotenv (2.2.2)
     faraday (0.14.0)
       multipart-post (>= 1.2, < 3)
     jwt (2.1.0)
