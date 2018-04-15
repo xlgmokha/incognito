@@ -13,6 +13,8 @@ module Incognito
           [:price, "#{result.price} #{result.price_unit}"],
           [:uri, result.uri],
         ]
+      rescue Twilio::REST::TwilioError => error
+        say error.message, :red
       end
 
       private
