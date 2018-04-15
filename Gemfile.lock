@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    incognito (0.1.0)
+    incognito (0.1.1)
       dotenv (~> 2.2)
       sinatra (~> 2.0)
       thor (~> 0.20)
