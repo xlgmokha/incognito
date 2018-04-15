@@ -17,6 +17,12 @@ module Incognito
         say error.message, :red
       end
 
+      desc 'server', "Start a server"
+      def server
+        require 'incognito/sms_server'
+        SmsServer.run!
+      end
+
       private
 
       def sms
