@@ -37,6 +37,7 @@ For Twilio to know where to look, you need to configure your Twilio phone number
 to call your webhook URL whenever a new message comes in.
 
 1. Log into twilio.com and go to the Numbers page in the Console.
+  (https://www.twilio.com/console/phone-numbers/incoming)
 2. Click on your SMS-enabled phone number.
 3. Find the Messaging section. The default “CONFIGURE WITH” is what you’ll need: "Webhooks/TwiML."
 4. In the “A MESSAGE COMES IN” section, select "Webhook" and paste in the URL you want to use:
