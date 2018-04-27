@@ -25,7 +25,7 @@ module Incognito
       desc 'server', "Start a server"
       def server
         require 'incognito/sms_server'
-        $shell = self
+        SmsServer.set :shell, self
         SmsServer.run!
       end
 
