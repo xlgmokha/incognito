@@ -4,7 +4,6 @@ require 'sinatra/base'
 class SmsServer < Sinatra::Base
   configure do
     disable :logging
-    set quiet: true, b: 2
     set :server, :puma
     set :shell, $shell
   end
