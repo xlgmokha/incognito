@@ -26,7 +26,7 @@ module Incognito
       def server
         require 'incognito/sms_server'
         SmsServer.set :shell, self
-        SmsServer.run!
+        SmsServer.boot_up!
       end
 
       private
