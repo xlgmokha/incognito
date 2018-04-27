@@ -1,6 +1,6 @@
 module Incognito
   class Sms
-    def initialize(sid: ENV['TWILIO_SID'], token: ENV['TWILIO_TOKEN'], phone_number: ENV['TWILIO_NUMBER'])
+    def initialize(sid:, token:, phone_number:)
       @sid = sid
       @token = token
       @phone_number = phone_number
