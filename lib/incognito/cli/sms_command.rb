@@ -1,8 +1,8 @@
 module Incognito
   module CLI
     class SMSCommand < Thor
-      class_option :sid, desc: "Twilio SID. ENV['TWILIO_SID']", default: ENV['TWILIO_SID']
-      class_option :token, desc: "Twilio token. ENV['TWILIO_TOKEN']", default: ENV['TWILIO_TOKEN']
+      class_option :sid, desc: "Twilio SID. ENV['TWILIO_SID']", lazy_default: ENV['TWILIO_SID']
+      class_option :token, desc: "Twilio token. ENV['TWILIO_TOKEN']", lazy_default: ENV['TWILIO_TOKEN']
       class_option :from_number, desc: "Twilio phone number. ENV['TWILIO_NUMBER']", default: ENV['TWILIO_NUMBER']
       class_option :debug, default: false, required: false
 
