@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "ngrok-tunnel", "~> 2.1"
   spec.add_dependency "puma", "~> 3.11"
   spec.add_dependency "sinatra", "~> 2.0"
-  spec.add_dependency "thor", "~> 0.20"
+  spec.add_dependency "thor", ">= 0.20", "< 2.0"
   spec.add_dependency "twilio-ruby", "~> 5.8"
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
