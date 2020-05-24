@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "dotenv", "~> 2.2"
   spec.add_dependency "ngrok-tunnel", "~> 2.1"
-  spec.add_dependency "puma", "~> 3.11"
+  spec.add_dependency "puma", ">= 3.11", "< 5.0"
   spec.add_dependency "sinatra", "~> 2.0"
   spec.add_dependency "thor", "~> 0.20"
   spec.add_dependency "twilio-ruby", "~> 5.8"
