@@ -34,7 +34,7 @@ To send and receive SMS:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/mokhan/incognito.
+Bug reports and pull requests are welcome on GitHub at https://github.com/xlgmokha/incognito.
 
 ## License
 
